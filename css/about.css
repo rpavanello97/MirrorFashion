@@ -1,0 +1,69 @@
+.articleH1 {
+    padding: 10px;
+    margin: 10px 0;
+    background-image: url(../img/sobre-background.jpg);
+}
+
+h2 {
+    border-bottom: 2px solid #333333 ;
+    margin-top: 30px;
+}
+
+figure {
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+p {
+    padding: 0 45px;
+}
+
+#centro-distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+#familia-pelho {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+p::first-letter {
+    font-weight: bold;
+}
+
+h1 + p {
+    text-indent: 10px;
+}
+
+:not(p) + p::first-line {
+    font-variant: small-caps ;
+}
+
+
+/* Some options to use in .css file */
+
+/*
+p {
+    line-height: 3px; /* tamanho da altura de cada linha 
+    letter-spacing: 3px; /* tamanho do espaço entre cada letra 
+    word-spacing: 5px; /* tamanho do espaço entre cada palavra 
+    text-indent: 30px; /* tamanho da margem da primeira linha do texto
+    }
+*/
+
+/*
+body {
+    border-color: red;
+    border-style: solid, dashed , dotted , double , groove.
+    border-width: 1px;
+}
+*/
